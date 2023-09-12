@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   return res.status(200).send("Welcome to MERN-Stack Tutorial!");
 });
 
+// app.use("/books", booksRoute);
 app.use("/books", booksRoute);
 
 mongoose
